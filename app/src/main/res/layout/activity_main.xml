@@ -19,6 +19,13 @@
             app:title="Instagram" />
     </com.google.android.material.appbar.AppBarLayout>
 
-
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/idNaviView"
+    app:labelVisibilityMode="labeled"
+    android:layout_gravity="bottom"
+    app:menu="@menu/menu_navbar_view"
+    />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
